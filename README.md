@@ -10,6 +10,11 @@ A Flask web application to fetch, store, and display weather data for multiple l
 - ⬇️ Export data to CSV
 - 💾 Excel-based data storage (no external database)
 
+🖼️ Screenshots
+
+Home Page->
+![Screenshot_home png](https://github.com/user-attachments/assets/08221ac1-d95b-41b9-bf89-1547251235e3)
+
 📁 Project Structure
 
 weather-Data-Dashboard/
