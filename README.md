@@ -28,10 +28,6 @@ History->
 
 ![Screenshot_history png](https://github.com/user-attachments/assets/bd90d291-e0e8-4e1b-9c31-072e62a8af46)
 
-📽️ Demo Video
-
-
-
 📁 Project Structure
 
 weather-Data-Dashboard/
