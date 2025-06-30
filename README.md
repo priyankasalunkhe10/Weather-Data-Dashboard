@@ -57,6 +57,6 @@ weather-app/
 │   ├── add_location.html # Add location form
 │   └── history.html      # Weather history page
 │
-├── data/                 # Data storage
+├── Data/                 # Data storage
    └── Data.xlsx         # Excel data file
 ```
