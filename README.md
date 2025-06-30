@@ -43,14 +43,23 @@ A Flask web application to fetch, store, and display weather data for multiple l
 
 ## 📁 Project Structure
 
-weather-data-tracker/
+weather-app/
 │
-├── app.py                # Main Flask application file
-├── Data/
-│   └── Data.xlsx         # Excel file storing weather data
-├── templates/
-│   ├── add_location.html # Form for manually adding locations
-│   ├── history.html      # Displays weather data history
-│   └── index.html        # Main page with weather lookup form
-├── static/               # (Optional) For CSS/JS files if added later
-└── README.md             # This file
+├── app.py                # Main Flask application file (your current code)
+├── requirements.txt      # Python dependencies
+├── README.md             # Project documentation
+│
+├── static/               # Static files (CSS, JS, images)
+│   └── styles.css        # Custom styles (if any)
+│
+├── templates/            # HTML templates
+│   ├── base.html         # Base template (optional)
+│   ├── index.html        # Main page
+│   ├── add_location.html # Add location form
+│   └── history.html      # Weather history page
+│
+├── data/                 # Data storage
+│   └── Data.xlsx         # Excel data file
+│
+└── tests/                # Test files (optional)
+    └── test_app.py       # Unit tests            # This file
