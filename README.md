@@ -42,7 +42,7 @@ A Flask web application to fetch, store, and display weather data for multiple l
 ![Screenshot_history png](https://github.com/user-attachments/assets/bd90d291-e0e8-4e1b-9c31-072e62a8af46)
 
 ## 📁 Project Structure
-
+```
 fitness-meal-planner/
 ├── app.py               # Main Flask application
 ├── meals.xlsx           # Excel data file (created automatically)
@@ -56,4 +56,4 @@ fitness-meal-planner/
     ├── view_meal.html   # View single meal
     ├── edit_meal.html   # Edit meal form
     └── meal_plan.html   # Meal planner page
-
+```
