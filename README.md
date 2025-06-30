@@ -53,13 +53,10 @@ weather-app/
 │   └── styles.css        # Custom styles (if any)
 │
 ├── templates/            # HTML templates
-│   ├── base.html         # Base template (optional)
 │   ├── index.html        # Main page
 │   ├── add_location.html # Add location form
 │   └── history.html      # Weather history page
 │
 ├── data/                 # Data storage
-│   └── Data.xlsx         # Excel data file
-│
-└── tests/                # Test files (optional)
-    └── test_app.py       # Unit tests            # This file
+    └── Data.xlsx         # Excel data file
+
