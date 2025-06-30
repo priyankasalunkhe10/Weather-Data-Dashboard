@@ -43,17 +43,20 @@ A Flask web application to fetch, store, and display weather data for multiple l
 
 ## 📁 Project Structure
 ```
-fitness-meal-planner/
-├── app.py               # Main Flask application
-├── meals.xlsx           # Excel data file (created automatically)
-├── requirements.txt     # Python dependencies
-├── static/              # Static files (CSS, JS)
-│   └── ...              
-└── templates/           # HTML templates
-    ├── base.html        # Base template
-    ├── index.html       # Homepage
-    ├── add_meal.html    # Add meal form
-    ├── view_meal.html   # View single meal
-    ├── edit_meal.html   # Edit meal form
-    └── meal_plan.html   # Meal planner page
+weather-app/
+│
+├── app.py                # Main Flask application file (your current code)
+├── requirements.txt      # Python dependencies
+├── README.md             # Project documentation
+│
+├── static/               # Static files (CSS, JS, images)
+│   └── styles.css        # Custom styles (if any)
+│
+├── templates/            # HTML templates
+│   ├── index.html        # Main page
+│   ├── add_location.html # Add location form
+│   └── history.html      # Weather history page
+│
+├── data/                 # Data storage
+   └── Data.xlsx         # Excel data file
 ```
